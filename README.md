@@ -6,6 +6,8 @@
 
 VELMORA — Streets of Velmora: an original open-world crime game for the make.fun **gta6-01** bounty ("Make GTA 6"). Nothing here comes from Rockstar's GTA or any other commercial game: the city of Velmora, its districts, characters, cars and story are all invented.
 
+Velmora is built to be played, not just looked at: driving, traffic, the wanted level, combat and missions all run off one live simulation, so a car you steal on the Neon Mile is still the car the police are chasing three streets later, and the city never quietly resets behind your back. Days turn to neon nights while you play, and every district keeps its own rhythm — the Marina at golden hour feels nothing like Dockside after dark.
+
 ## The game
 
 You are **Jax Carter**, fresh out of county jail with $150 and one contact: Rico,
@@ -65,7 +67,7 @@ requests — every file the game loads lives under `game/`.
 
 The cover and the three scenes in `screenshots/` are real renders of the
 game's own code, staged by `game/src/shots.js` and captured by the driver
-below (same seed every time, so the frames are reproducible):
+below (one fixed seed per capture, so each frame is reproducible from its seed):
 
 - `1-start.jpg` — title screen over downtown Velmora at dusk
 - `2-drive.jpg` — golden-hour drive down the Neon Mile in a Falco GT
